@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form"
 
 import { Button } from "@/components/ui/button"
 import {
-  Form,
+  Form as ShadcnForm,
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
  

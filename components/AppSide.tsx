@@ -1,5 +1,5 @@
 
-import { Calendar, ChevronUp, File, Home, Inbox, Plus, PlusCircle, Projector, Search, Settings, User2 } from "lucide-react"
+import { Calendar, ChevronUp, File, Home, Inbox, Plus, PlusCircle, Projector, Search, Settings, User, User2 } from "lucide-react"
 
 import {
   Sidebar,
@@ -24,13 +24,13 @@ import { DropdownMenuItem } from "./ui/dropdown-menu"
 const items = [
   {
     title: "Home",
-    url: "#",
+    url: "/",
     icon: Home,
   },
   {
-    title: "Inbox",
-    url: "#",
-    icon: Inbox,
+    title: "Team Collaboration",
+    url: "/users",
+    icon: User,
   },
   {
     title: "Calendar",

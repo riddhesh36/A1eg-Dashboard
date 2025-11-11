@@ -50,7 +50,7 @@ const AppBarCharts = () => {
     <div>
         <h2 className='text-lg font-medium mb-6'>Total Visitors</h2>
         <ChartContainer config={chartConfig} className="min-h-[300px] w-full">
-            <ResponsiveContainer width="100%" height={200}>
+            <ResponsiveContainer width="100%" height={200} className="sm:height-[400px]">
             <PieChart>
             <ChartTooltip
               cursor={false}

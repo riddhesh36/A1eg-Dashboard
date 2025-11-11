@@ -8,7 +8,7 @@ import { Progress } from './ui/progress'
 const GoogleCard = () => {
   return (
     <div className='mainWrapper'>
-        <h1 className="text-lg font-medium mb-6">Team Colaboration</h1>
+        <h1 className="text-lg font-medium mb-6">Recent Campaigns</h1>
         <Card className='p-4'>
             <div className="logoavatar flex justify-between items-center">
                 <div className="logo">
